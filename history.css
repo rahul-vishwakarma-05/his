@@ -183,7 +183,7 @@ body {
   /* -------------------------- creating the footer of the history page----------------------------------------------------------------------------------------------- */
   #footer {
     position: absolute;
-    bottom: 3rem;
+    bottom: 1rem;
     left: 2.5%;
     width: 95%;
     height: 63px;
