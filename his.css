@@ -191,7 +191,7 @@ body {
 
 #footer{
   position: absolute;
-  bottom  : 4rem;
+  bottom: 4rem;
   left    : 2.5%;
   width   : 95%;
   height  : 60px;
@@ -244,10 +244,12 @@ body {
       }
       
 .bet_history_body {
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
     height: calc(100% - 32%);
-
 }    
+.win_body{
+    margin-top: .5rem;
+}
 }
 
 
