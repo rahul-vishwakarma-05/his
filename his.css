@@ -95,6 +95,8 @@ body {
   /* --------------- styling the main body of the history page --------------------------------------------------------------------------- */
 
 .bet_history_body {
+    margin: 0 auto;
+    width: 95%;
     margin-top: 4.5rem;
     height: calc(100% - 25%);
 
@@ -121,7 +123,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: .5rem;
-    background-color: #b2beb5;
+    background-color: #b593cc;
     color: rgba(255, 255, 255, 0.674);
   
   }
@@ -131,6 +133,9 @@ body {
   .products > div {
     width: 100%;
     height: 100%;
+    background: url('six.jpg');
+    background-size: cover;
+  
   }
   
   .bet_one {
@@ -145,7 +150,8 @@ body {
       justify-content: space-between;
     }
   .descrp{
-    padding: .5rem;
+    padding: 1rem;
+    /* color: white;  */
   }
   
   .wins_loss{
@@ -154,8 +160,8 @@ body {
       height: 20%;
       bottom: 0;
       padding: .5rem 3rem;
-      background-color: red;
       color: rgba(255, 255, 255, 0.815);
+      background-color: rgba(255, 0, 0, 0.459);
     }
     .wins_loss > span > h3{
       display: flex;
@@ -168,8 +174,8 @@ body {
       position: absolute;
       right: 2%;
       top: 5%;
-      height: 7rem;
-      width:7rem; 
+      height: 6rem;
+      width:6rem; 
       background-image: url("i.jpg");
       background-size:cover;
       background-repeat: no-repeat;
